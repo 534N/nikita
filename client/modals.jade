@@ -1,0 +1,40 @@
+template(name="modals")
+	//- modal
+	.modal.fade#addBiz
+		.modal-dialog
+			.modal-content
+				.modal-body
+					table.table
+						tr 
+							td NAME 
+							td 
+								input(type="text", name="name") 
+						tr 
+							td ADDRESS 
+							td
+								input(type="text", name="address")
+						tr 
+							td CITY 
+							td 
+								input(type="text", name="city")
+						tr 
+							td PROVINCE 
+							td
+								input(type="text", name="province")
+						tr 
+							td PHONE 
+							td 
+								input(type="text", name="phone")
+						tr 
+							td CATEGORY 
+							td
+								input(type="text", name="category")
+						tr
+							td LAITUDE
+							td
+								input(type="text", name="lat")
+						tr 
+							td LONGITUDE
+							td
+								input(type="text", name="lon")
+					button.btn.btn-primary#confirmAddBiz OK
